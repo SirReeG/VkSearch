@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VkSearch</string>
+    <string name="id_name">Введите ID в ВКонтакте </string>
+    <string name="button_search">Search! </string>
+    <string name="search_result">Результат будет отображен здесь </string>
+
+
+</resources>
