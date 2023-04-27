@@ -1,5 +1,6 @@
 package Utils;
 import android.net.Uri;
+import android.os.AsyncTask;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,14 +9,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
-
 public class NetworkUtils {
     public static final String VK_API_BASE_URL = "https://api.vk.com";
     public static final String VK_USERS_GET = "/method/users.get";
     public static final String USER_ID = "user_Ids";
     public static final String VERSION = "v";
     public static final String ACCESS_TOKEN = "access_token";
-
 
 
     public static String getResponseFromUrl(URL url) throws IOException {
@@ -59,9 +58,6 @@ public class NetworkUtils {
         }
          return url;
 
-
     }
-
-
 
 }
